@@ -1,0 +1,78 @@
+﻿
+#Menu {
+    border: 1px solid black;
+    width: 100%;
+    background-color: black;
+    position: static;
+}
+
+menuText {
+    padding: 18px;
+    font-size: 18px;
+    color: antiquewhite;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    height: 500px;
+    background-color: #f1f1f1;
+}
+
+side {
+    float: left;
+    width: 30%;
+    height: 500px;
+    background: #ccc;
+    padding: 20px;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+b {
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 18px;
+    width: 80%;
+    border: 1px solid grey;
+    float: left;
+    background-color: blue;
+    height:20px;
+}
+
+form.example button {
+    float: left;
+    padding: 10px;
+    width: 20%;
+    color: blue;
+    font-size: 17px;
+    border: 1px solid grey;
+    background-color: green;
+    border-left: none;
+    cursor: pointer;
+    height: 20px;
+}
+
+form.example button:hover {
+    background: #0b7dda
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
